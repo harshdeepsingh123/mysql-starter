@@ -58,7 +58,7 @@ app.post('/employes',(req,res)=>{
     {
         rows.forEach(element => {
             if(element.constructor == Array)
-            res.send("inserted employeid :"+element[0].employeid) // there is some error in posting employeid next time i havr to solve this.
+            res.send("inserted employeid :"+element[0].employeid) // there is some error in posting employeid next time i have to solve this.
         });
     }
         else
